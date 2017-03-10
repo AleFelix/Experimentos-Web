@@ -1,0 +1,42 @@
+#reproductor {
+    border: 1px solid black;
+    float: left;
+    width: 98%;
+    padding: 1ex;
+    margin: 1ex;
+    background-color: black;
+    font-family: arial, sans-serif;
+}
+
+#video {
+    float: left;
+    width: 67%;
+    margin-right: 3ex;
+    border: 1px solid black;
+}
+
+#video video {
+    width: 100%;
+}
+
+#listaVideos {
+    float: right;
+    width: 30%;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+#listaVideos ul {
+    list-style-type: none;
+    margin: 1ex;
+    padding: 0;
+}
+
+#listaVideos ul li {
+    border: 1px solid grey;
+    background-color: lightgray;
+    padding: 0.2ex 0 0.2ex 0;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}

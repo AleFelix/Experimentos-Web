@@ -1,0 +1,107 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+
+#mashup {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#buscador {
+    float: left;
+    padding: 2%;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-color: #75B193;
+}
+
+#busqueda {
+    float: left;
+    width: 100%;
+    height: 10%;
+}
+
+#buscar {
+    width: 80%;
+}
+
+#mapa {
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+}
+
+#fotos {
+    float: left;
+    padding: 2%;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-color: #28774F;
+}
+
+#imagenes {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#carrousel {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#slider {
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.boton {
+    height: 5ex;
+    width: 5ex;
+    top: 50%;
+    position: absolute;
+    background-color: black;
+}
+
+.boton p {
+    color: white;
+    text-align: center;
+    font-family: arial, sans-serif;
+    line-height: 1.5ex;
+    font-weight: bold;
+}
+
+#botonIzquierdo {
+    left: 0;
+    cursor: pointer;
+}
+
+#botonDerecho {
+    right: 0;
+    cursor: pointer;
+}
+
