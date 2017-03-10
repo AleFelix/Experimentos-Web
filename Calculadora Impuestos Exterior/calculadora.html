@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Calculadora de Compras al Exterior</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+<h2>Calculadora de Compras al Exterior</h2>
+<form class="estilo-form" action="javascript:calcularCosto()">
+  <label id="labelDolares" for="inputDolares">Precio del Producto (US$)</label>
+  <input id="inputDolares" type="text">
+  <label id="labelEnvio" for="inputEnvio">Precio del Env&iacute;o (US$)</label>
+  <input id="inputEnvio" type="text" placeholder="Opcional">
+  <div id="franquicia">
+    <input id="checkFranquicia" type="checkbox">
+    <label id="labelFranquicia" for="checkFranquicia">Franquicia de US$ 25</label>
+  </div>
+  <input id="boton" type="submit" value="Calcular">
+</form>
+<div id="cotizacion">
+</div>
+<div id="respuesta">
+</div>
+</body>
+</html>

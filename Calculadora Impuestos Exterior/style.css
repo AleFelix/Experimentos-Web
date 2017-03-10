@@ -1,0 +1,154 @@
+html {
+  background: #576E86;
+}
+
+.estilo-form {
+  width: 450px;
+  font-size: 16px;
+  background: #495C70;
+  padding: 30px 30px 15px 30px;
+  border: 5px solid #53687E;
+  margin: 0 auto;
+}
+
+.estilo-form input[type=submit],
+.estilo-form input[type=button],
+.estilo-form input[type=text],
+.estilo-form input[type=email],
+.estilo-form textarea,
+.estilo-form label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.estilo-form label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.estilo-form label > span {
+  display: inline-block;
+  float: left;
+  width: 150px;
+}
+
+.estilo-form input[type=text],
+.estilo-form input[type=email] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #83A4C5;
+  width: 275px;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  font-style: italic;
+}
+
+.estilo-form textarea {
+  font-style: italic;
+  padding: 0px 0px 0px 0px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px dashed #83A4C5;
+  width: 275px;
+  overflow: hidden;
+  resize: none;
+  height: 20px;
+}
+
+.estilo-form textarea:focus,
+.estilo-form input[type=text]:focus,
+.estilo-form input[type=email]:focus,
+.estilo-form input[type=email]:focus {
+  border-bottom: 1px dashed #D9FFA9;
+}
+
+.estilo-form input[type=submit],
+.estilo-form input[type=button] {
+  display: block;
+  background: #576E86;
+  border: none;
+  margin-top: 30px;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  color: #A8BACE;
+}
+
+.estilo-form input[type=submit]:hover,
+.estilo-form input[type=button]:hover {
+  background: #394D61;
+}
+
+#franquicia {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#labelFranquicia,
+#checkFranquicia {
+  display: inline;
+  font-size: 13px;
+}
+
+#respuesta {
+  width: 450px;
+  font-size: 16px;
+  background: #495C70;
+  padding: 15px 30px 15px 30px;
+  border: 5px solid #53687E;
+  color: #fff;
+  margin: 0 auto;
+}
+
+#respuesta p,
+#respuesta table {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+}
+
+#respuesta td {
+  border-bottom: 1px dashed #FFF;
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+#respuesta tr td:first-child {
+  text-align: left;
+}
+
+#respuesta tr td:last-child {
+  text-align: right;
+}
+
+h2 {
+  width: 450px;
+  font-size: 16px;
+  background: #495C70;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 15px 30px 15px 30px;
+  border: 5px solid #53687E;
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#divImgMarcador {
+  display: inline-block;
+  margin-right: -100px;
+  padding-left: 90px;
+}
+
+p {
+  text-align: center;
+}
